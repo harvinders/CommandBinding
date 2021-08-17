@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <StackPanel Orientation="Horizontal">
-        <TextBlock Text="{x:Bind ViewModel.Value, Mode=OneWay}"/>
-        <Button Grid.Column="1" Command="{x:Bind ViewModel.SaveCommand}" Content="Save" HorizontalAlignment="Stretch" />
+        <TextBlock Text="{x:Bind ViewModel.Value, Mode=OneWay}" />
+        <Button Grid.Column="1" Command="{x:Bind ViewModel.SaveCommand, Mode=OneWay}" Content="Save 2" HorizontalAlignment="Stretch" />
     </StackPanel>
 </UserControl>

@@ -15,7 +15,7 @@
     <NoWarn>CA1416, $(NoWarn)</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Views\NavigationView.xaml" />
+    <None Remove="Views\NotificationView.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,7 +35,7 @@
     <ProjectReference Include="..\CommandBinding.Core\CommandBinding.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\NavigationView.xaml">
+    <Page Update="Views\NotificationView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
